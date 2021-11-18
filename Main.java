@@ -29,5 +29,6 @@ public class Main
         String isPalindrom = isPalindrom(teks) ? "Palindrom" : "Bukan Palindrom";
 
         System.out.println("Output : " + isPalindrom);
+        scan.close();
     }
 }
